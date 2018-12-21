@@ -1,0 +1,30 @@
+{
+  "name": "outside-cli",
+  "version": "1.0.0",
+  "description": "Weather cli app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "outside": "bin/outside"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ge-hall/outside-sli.git"
+  },
+  "keywords": [
+    "weather"
+  ],
+  "author": "Andrew Gre-Hall",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ge-hall/outside-sli/issues"
+  },
+  "homepage": "https://github.com/ge-hall/outside-sli#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "minimist": "^1.2.0",
+    "ora": "^3.0.0"
+  }
+}
